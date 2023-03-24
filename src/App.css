@@ -11,3 +11,34 @@ h1{
   padding: 0;
   color: rgb(75, 62, 160);
 }
+.orderCount{
+  font-size: 17px;
+  font-weight: bold;
+}
+.orderCount span{
+  font-size: 15px;
+  font-weight: normal;
+}
+.addBtn{
+  margin-right: 5px;
+  padding: 5px 8px;
+  border: 0 none;
+  border-radius: 3px;
+  color: #fff;
+  background: slateblue;
+}
+.removeBtn{
+  margin-right: 5px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid slateblue;
+  color: slateblue;
+  background: #fff;
+}
+.resetBtn{
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  color: slateblue;
+  background: #eee;
+}
