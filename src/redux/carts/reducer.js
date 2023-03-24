@@ -6,7 +6,7 @@ const cartReducer = (state = initState, action)=>{
     case ADD_CART:
       return{
         state,
-        count:state.count + 1
+        count: action.payload
       }
       default: return state;
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { addProduct,removeProduct,resetProduct } from '../redux/products/actions';
+import { addProduct,removeProduct,resetProduct } from '../redux';
 
 function Products({count,addProduct,removeProduct,resetProduct}){
   return(
